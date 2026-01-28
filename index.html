@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="NMA Academy - Elite Martial Arts Training in Mumbai. MMA, Kickboxing, Wrestling, and Fitness.">
+    <title>NMA Academy | Elite Martial Arts & Fitness</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="logo.jpg">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- 1. PRELOADER -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- 2. NAVIGATION HEADER -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.jpg" alt="NMA Logo" class="logo-img">
+                <div>NMA <span>ACADEMY</span></div>
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#programs" class="nav-link">Programs</a></li>
+                <li class="nav-item"><a href="#instructors" class="nav-link">Instructors</a></li>
+                <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item">
+                    <a href="#contact" class="btn btn-fill" style="padding: 10px 20px; font-size: 0.8rem;">Join Now</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <img src="logo.jpg" alt="NMA Academy Logo" class="hero-logo reveal">
+            <h1 class="reveal">TRAIN LIKE A<br><span class="text-gradient"
+                    style="font-size: 3.8rem; line-height: 1.2; margin-bottom: 10px;">CHAMPION</span></h1>
+            <p class="reveal">Unlock your true potential with world-class martial arts training. Discipline, Strength,
+                and Honor start here.</p>
+            <div class="hero-btns reveal">
+                <a href="#programs" class="btn btn-fill">Explore Classes</a>
+                <a href="#contact" class="btn">Book Free Trial</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. STATS BAR -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h3>20+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3>250+</h3>
+                <p>Active Students</p>
+            </div>
+            <div class="stat-item">
+                <h3>2</h3>
+                <p>Elite Instructors</p>
+            </div>
+            <div class="stat-item">
+                <h3>1</h3>
+                <p>Training Floor</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. CAROUSEL SECTION -->
+    <section id="carousel" class="carousel-section">
+        <div class="container">
+            <div class="text-center mb-16 reveal">
+                <!-- Text updated to follow theme gradient (Red to Blue, not light blue) -->
+                <h2 class="text-gradient" style="font-size: 3rem; margin-bottom: 10px;">INSIDE OUR ACADEMY</h2>
+                <p class="text-gray">Take a glimpse into our world-class training facilities and see our dedicated
+                    students in action.</p>
+            </div>
+
+            <div class="carousel-container reveal">
+                <button class="carousel-btn prev" aria-label="Previous Slide"><i
+                        class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+
+                <div class="carousel-track">
+                    <!-- Slide 1 -->
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1599058917232-d750c1859d7c?auto=format&fit=crop&w=1200&q=80"
+                            alt="Karate Practice">
+                        <div class="carousel-overlay">
+                            <h3>KARATE PRACTICE</h3>
+                            <p>Perfecting traditional techniques and building discipline.</p>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1200&q=80"
+                            alt="Fight Area">
+                        <div class="carousel-overlay">
+                            <h3>CHAMPIONSHIP MATS</h3>
+                            <p>Our professional fight area where warriors are forged.</p>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&w=1200&q=80"
+                            alt="MMA Training">
+                        <div class="carousel-overlay">
+                            <h3>INTENSE TRAINING</h3>
+                            <p>High-intensity sessions to build explosive power and endurance.</p>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1615117970108-c89b88d87a41?auto=format&fit=crop&w=1200&q=80"
+                            alt="Grappling Session">
+                        <div class="carousel-overlay">
+                            <h3>GRAPPLING FUNDAMENTALS</h3>
+                            <p>Focusing on technique and leverage in the ground game.</p>
+                        </div>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80"
+                            alt="CrossFit Workout">
+                        <div class="carousel-overlay">
+                            <h3>ELITE CONDITIONING</h3>
+                            <p>Pushing the limits of functional strength and agility.</p>
+                        </div>
+                    </div>
+                    <!-- Slide 6 -->
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=1200&q=80"
+                            alt="Kickboxing Drill">
+                        <div class="carousel-overlay">
+                            <h3>STRIKING DRILLS</h3>
+                            <p>Speed, precision, and power in every strike.</p>
+                        </div>
+                    </div>
+                    <!-- Slide 7 -->
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1591117207239-78898dd1ca65?auto=format&fit=crop&w=1200&q=80"
+                            alt="Wrestling Takedowns">
+                        <div class="carousel-overlay">
+                            <h3>WRESTLING DOMINANCE</h3>
+                            <p>Mastering takedowns and controlling the mat.</p>
+                        </div>
+                    </div>
+                    <!-- Slide 8 -->
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1544367563-12123d8d5d91?auto=format&fit=crop&w=1200&q=80"
+                            alt="Yoga Flow">
+                        <div class="carousel-overlay">
+                            <h3>POWER YOGA FLOW</h3>
+                            <p>Enhancing flexibility, balance, and mental focus.</p>
+                        </div>
+                    </div>
+                    <!-- Slide 9 -->
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80"
+                            alt="Kids Academy">
+                        <div class="carousel-overlay">
+                            <h3>KIDS ACADEMY</h3>
+                            <p>Instilling confidence and respect in the next generation.</p>
+                        </div>
+                    </div>
+                    <!-- Slide 10 -->
+                    <div class="carousel-slide">
+                        <img src="https://images.unsplash.com/photo-1614963326505-84386cd3697b?auto=format&fit=crop&w=1200&q=80"
+                            alt="HEMA Practice">
+                        <div class="carousel-overlay">
+                            <h3>HISTORICAL ARTS</h3>
+                            <p>Exploring tradition through historical weaponry and HEMA.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-dots reveal">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+                <span class="dot" data-index="5"></span>
+                <span class="dot" data-index="6"></span>
+                <span class="dot" data-index="7"></span>
+                <span class="dot" data-index="8"></span>
+                <span class="dot" data-index="9"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. PROGRAMS SECTION -->
+    <section id="programs" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2>Our <span class="text-gradient">Programs</span></h2>
+                <div class="line"></div>
+                <p style="margin-top: 15px; color: var(--text-gray);">Classes designed for every age and skill level.
+                </p>
+            </div>
+
+            <div class="programs-grid">
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1555597673-b21d5c935865?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                            alt="MMA Training">
+                    </div>
+                    <div class="program-content">
+                        <h3>MMA</h3>
+                        <p>The ultimate combat sport. Seamlessly blend striking, wrestling, and grappling.</p>
+                        <a href="mma.html" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Kickboxing">
+                    </div>
+                    <div class="program-content">
+                        <h3>Kickboxing</h3>
+                        <p>High-energy stand-up combat. Combine boxing hands with powerful kicks for a full-body
+                            workout.</p>
+                        <a href="kickboxing.html" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Wrestling">
+                    </div>
+                    <div class="program-content">
+                        <h3>Wrestling</h3>
+                        <p>Dominate the takedown. Learn to control your opponent and dictate where the fight takes
+                            place.</p>
+                        <a href="wrestling.html" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1615117970108-c89b88d87a41?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Grappling">
+                    </div>
+                    <div class="program-content">
+                        <h3>Grappling</h3>
+                        <p>No-Gi submission fighting. A fast-paced blend of wrestling, BJJ, and catch wrestling
+                            techniques.</p>
+                        <a href="grappling.html" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="CrossFit">
+                    </div>
+                    <div class="program-content">
+                        <h3>Functional CrossFit</h3>
+                        <p>High-intensity functional movements. Build explosive power, endurance, and raw athletic
+                            conditioning.</p>
+                        <a href="crossfit.html" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1555661530-68c8e6933906?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Karate">
+                    </div>
+                    <div class="program-content">
+                        <h3>Karate</h3>
+                        <p>Traditional discipline meets explosive power. Focus on form, respect, and striking technique.
+                        </p>
+                        <a href="karate.html" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Kids Training">
+                    </div>
+                    <div class="program-content">
+                        <h3>Kids Martial Arts</h3>
+                        <p>Instilling confidence, respect, and focus in the next generation. Safe and fun environment.
+                        </p>
+                        <a href="kids.html" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1599447421405-0e32096d30fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Yoga">
+                    </div>
+                    <div class="program-content">
+                        <h3>Power & Aerial Yoga</h3>
+                        <p>Restore balance and flexibility. A challenging blend of strength-based flows and aerial
+                            techniques.</p>
+                        <a href="yoga.html" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-img">
+                        <img src="https://images.unsplash.com/photo-1614963326505-84386cd3697b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="HEMA">
+                    </div>
+                    <div class="program-content">
+                        <h3>Historical Martial Arts</h3>
+                        <p>Study the ancient arts. Specialization in HEMA, swordsmanship, and traditional combat
+                            weaponry.</p>
+                        <a href="hema.html" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. INSTRUCTORS SECTION -->
+    <section id="instructors" class="section-padding" style="background: #080808;">
+        <div class="container">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-gradient" style="font-size: 3.8rem; line-height: 1.2; margin-bottom: 10px;">Meet Our
+                    Team</h2>
+                <p class="section-subtitle"
+                    style="color: #fff; margin-bottom: 25px; font-size: 1.2rem; letter-spacing: 5px;">Elite Instructors
+                </p>
+                <p class="text-gray max-w-2xl mx-auto">
+                    Learn from the best. Our instructors bring years of competitive experience and a passion for
+                    teaching to every class.
+                </p>
+            </div>
+
+            <div class="instructors-grid reveal">
+                <!-- Coach Suhash -->
+                <div class="instructor-card-new group">
+                    <div class="instructor-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1591117207239-78898dd1ca65?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Coach Suhash Newalkar" class="instructor-image">
+                        <div class="instructor-overlay"></div>
+                        <div class="instructor-badges">
+                            <span class="badge">MMA</span>
+                            <span class="badge">KickBoxing</span>
+                            <span class="badge">Wrestling</span>
+                            <span class="badge">Grappling</span>
+                            <span class="badge">CrossFit</span>
+                        </div>
+                    </div>
+                    <div class="instructor-content">
+                        <div class="flex-between">
+                            <h3 class="instructor-name">Coach Suhash Newalkar</h3>
+                            <span class="instructor-exp">20+ years</span>
+                        </div>
+                        <p class="instructor-role">Head Coach & Founder</p>
+                        <p class="instructor-desc">Multiple championship titles holder with decades of training
+                            experience. Dedicated to building champions.</p>
+                        <div class="social-row">
+                            <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coach Chirag -->
+                <div class="instructor-card-new group">
+                    <div class="instructor-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1544367563-12123d8d5d91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                            alt="Coach Chirag Sharma" class="instructor-image">
+                        <div class="instructor-overlay"></div>
+                        <div class="instructor-badges">
+                            <span class="badge">Karate</span>
+                            <span class="badge">Yoga</span>
+                            <span class="badge">HEMA</span>
+                            <span class="badge">Kids</span>
+                        </div>
+                    </div>
+                    <div class="instructor-content">
+                        <div class="flex-between">
+                            <h3 class="instructor-name">Coach Chirag Sharma</h3>
+                            <span class="instructor-exp">15+ years</span>
+                        </div>
+                        <p class="instructor-role">Lead Instructor</p>
+                        <p class="instructor-desc">National-level competitor and certified yoga instructor. Specializes
+                            in technique refinement and flexibility.</p>
+                        <div class="social-row">
+                            <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. REVIEWS SECTION -->
+    <section id="reviews" class="section-padding" style="background-color: #050505;">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2>What Warriors <span class="text-gradient">Say</span></h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="reviews-container reveal">
+                <div class="reviews-grid" id="reviewsList">
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"NMA Academy changed my life. The coaches are world-class and the
+                            community is incredibly supportive. I lost 10kg in my first 3 months!"</p>
+                        <h4 class="review-author">- Rahul Verma</h4>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Best MMA gym in Mumbai. Suhash Sir pays attention to every detail.
+                            Highly recommended for beginners and pros."</p>
+                        <h4 class="review-author">- Priya Desai</h4>
+                    </div>
+                </div>
+
+                <div class="review-form-wrapper reveal">
+                    <h3>Leave Your Legacy</h3>
+                    <p class="text-gray mb-4">Train here? Share your experience.</p>
+                    <form id="reviewForm">
+                        <div class="form-group">
+                            <input type="text" id="reviewName" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="reviewRating" class="form-control" required>
+                                <option value="5">⭐⭐⭐⭐⭐ - Excellent</option>
+                                <option value="4">⭐⭐⭐⭐ - Very Good</option>
+                                <option value="3">⭐⭐⭐ - Good</option>
+                                <option value="2">⭐⭐ - Fair</option>
+                                <option value="1">⭐ - Poor</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="reviewText" class="form-control" placeholder="Your Review" rows="3"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-fill">Submit Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. CONTACT SECTION -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info reveal">
+                    <h2>START YOUR <br><span class="text-gradient">JOURNEY TODAY</span></h2>
+                    <p style="margin-bottom: 30px; color: var(--text-gray);">
+                        Your first class is on us. Fill out the form to schedule your free introductory session and tour
+                        the facility.
+                    </p>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p class="text-gray">Pump House, Shree Sai leela BMC Udyan, opp. Patel Torace, Andheri East,
+                                Mumbai 400093</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p class="text-gray">Suhash Sir: +91 97733 65350</p>
+                            <p class="text-gray">Chirag Sir: +91 86526 11071</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p class="text-gray">join@nmaacademy.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper reveal">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label style="margin-bottom: 5px; display: block; font-size: 0.9rem;">Full Name</label>
+                            <input type="text" class="form-control" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label style="margin-bottom: 5px; display: block; font-size: 0.9rem;">Email Address</label>
+                            <input type="email" class="form-control" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label style="margin-bottom: 5px; display: block; font-size: 0.9rem;">Program of
+                                Interest</label>
+                            <select class="form-control">
+                                <option>MMA</option>
+                                <option>Kickboxing</option>
+                                <option>Wrestling</option>
+                                <option>Kids Classes</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-fill" style="width: 100%;">Claim Free Pass</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. FOOTER -->
+    <footer id="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col brand-col">
+                    <a href="index.html" class="footer-logo">
+                        <img src="logo.jpg" alt="NMA Logo">
+                        <div>NMA <span>ACADEMY</span></div>
+                    </a>
+                    <p class="footer-desc">Forging champions in life and on the mats. We provide elite training in a
+                        supportive, disciplined environment.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col links-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#instructors">Instructors</a></li>
+                        <li><a href="#reviews">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col links-col">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="mma.html">Mixed Martial Arts</a></li>
+                        <li><a href="kickboxing.html">Kickboxing</a></li>
+                        <li><a href="kids.html">Kids Academy</a></li>
+                        <li><a href="yoga.html">Power Yoga</a></li>
+                        <li><a href="hema.html">HEMA</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col newsletter-col">
+                    <h4>Join The Tribe</h4>
+                    <p>Get training tips and exclusive offers delivered to your inbox.</p>
+                    <form class="footer-form">
+                        <div class="input-group">
+                            <input type="email" placeholder="Your Email Address" required>
+                            <button type="submit" aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">&copy; 2024 NMA Academy. All Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
